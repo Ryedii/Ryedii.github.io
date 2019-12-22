@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>TestPassword</title>
+    <url>/blog/TestPassword</url>
+    <content><![CDATA[<p>Test for Password</p>
+]]></content>
+  </entry>
+  <entry>
     <title>FFT</title>
     <url>/blog/FFT</url>
-    <content><![CDATA[<p>Poly Step1</p>
-<a id="more"></a>
+    <content><![CDATA[<a id="more"></a>
 <h3 id="多项式"><a href="#多项式" class="headerlink" title="多项式"></a>多项式</h3><script type="math/tex; mode=display">
 \begin{aligned}
 A(x)& =\sum_{i=0}^na_ix_i \\ 
