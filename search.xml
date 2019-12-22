@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>First_Post</title>
-    <url>/blog/First-Post</url>
-    <content><![CDATA[]]></content>
+    <title>FFT</title>
+    <url>/blog/FFT</url>
+    <content><![CDATA[<h2 id="FFT"><a href="#FFT" class="headerlink" title="FFT"></a>FFT</h2>]]></content>
+      <categories>
+        <category>OIWiki</category>
+        <category>Poly</category>
+      </categories>
+      <tags>
+        <tag>FFT</tag>
+      </tags>
   </entry>
 </search>
