@@ -18,7 +18,7 @@ B(x)=(x_0,y_0'),(x_1,y_1'),\cdots,(x_n,y_n'))</script><p>可得出 $C$ 的一个
 <script type="math/tex; mode=display">
 C(x)=(x_0,y_0y_0'),(x_1,y_1y_1'),\cdots,(x_n,y_ny_n')</script><p>若将点对个数增至 $2n+1$ 个，可知求出 $C$ 的点值数列时间复杂度 $O(n)$。</p>
 <hr>
-<h3 id="DFT-amp-IDFT"><a href="#DFT-amp-IDFT" class="headerlink" title="DFT &amp; IDFT"></a>DFT &amp; IDFT</h3><p><strong>DFT(Discrete Fourier Transform， 离散傅里叶变换)</strong> 是系数数列 $a_0,a_1,\cdots,a_n$ 转为点值数列的过程，<strong>IDFT(Inverse\ Discrete\ Fourier\ Transform，逆离散傅里叶变换</strong> 是 <strong>DFT</strong> 的逆运算。</p>
+<h3 id="DFT-amp-IDFT"><a href="#DFT-amp-IDFT" class="headerlink" title="DFT &amp; IDFT"></a>DFT &amp; IDFT</h3><p><strong>DFT(Discrete Fourier Transform， 离散傅里叶变换)</strong> 是系数数列 $a_0,a_1,\cdots,a_n$ 转为点值数列的过程，<strong>IDFT(Inverse Discrete Fourier Transform，逆离散傅里叶变换)</strong> 是 <strong>DFT</strong> 的逆运算。</p>
 <hr>
 <h3 id="FFT​"><a href="#FFT​" class="headerlink" title="FFT​"></a>FFT​</h3><p>考虑 <strong>DFT​</strong> 和 <strong>IDFT</strong> 均是 $O(n^2)$，可以利用 <strong>FFT(Fast Fourier Transform，快速傅里叶变换)</strong> 将其加速。</p>
 <h4 id="单位复根"><a href="#单位复根" class="headerlink" title="单位复根"></a>单位复根</h4><p>$\omega^n=1$ 在复数域下有 $n$ 个不同的根。</p>
