@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>TestPassword</title>
-    <url>/blog/TestPassword</url>
-    <content><![CDATA[<p>Test for Password</p>
-]]></content>
-  </entry>
-  <entry>
     <title>FFT</title>
-    <url>/blog/FFT</url>
+    <url>//2019/FFT</url>
     <content><![CDATA[<a id="more"></a>
 <h3 id="多项式"><a href="#多项式" class="headerlink" title="多项式"></a>多项式</h3><script type="math/tex; mode=display">
 \begin{aligned}
@@ -36,8 +30,10 @@ e^{2\pi i}=1=\omega^n</script><script type="math/tex; mode=display">
 \omega_n=e^{\frac{2\pi i}n}</script><p>对于其它单位根，记作</p>
 <script type="math/tex; mode=display">
 w_n^k=e^{\frac{2\pi ik}n}</script><p>存在以下性质</p>
+<ul>
+<li>$\omega_{2n}^{k}+\omega_{2n}^{n+k}=0$</li>
+</ul>
 <script type="math/tex; mode=display">
-\omega_{2n}^{k}+\omega_{2n}^{n+k}=0</script><script type="math/tex; mode=display">
 (\omega_{2n}^k)^2=\omega_{n}^k</script><p>考虑用单位复根的性质优化 <strong>DFT</strong>。</p>
 <p>对于多项式 $A(x)=\sum_{i=0}^{2n-1}a_ix^i$，其中 $2n=2^k$，我们将 $\omega_{2n}^0,\omega_{2n}^1,\cdots,\omega_{2n}^{2n-1}$ 代入公式计算点值。</p>
 <p>现在重定义两个多项式</p>
